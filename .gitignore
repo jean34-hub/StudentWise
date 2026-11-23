@@ -1,0 +1,21 @@
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+instance/*.db
+instance/*.sqlite
+instance/*.sqlite3
+
+# Editor configuration
+.copilot-azure/
